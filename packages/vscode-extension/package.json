@@ -218,6 +218,11 @@
           "type": "boolean",
           "default": false,
           "description": "Use beta version of @claude-sessions/web package instead of latest"
+        },
+        "claudeSessions.cliFlags": {
+          "type": "string",
+          "default": "",
+          "description": "Additional CLI flags appended to the claude command when resuming sessions (e.g., '--dangerously-skip-permissions')"
         }
       }
     }
